@@ -7,6 +7,7 @@ site:
       title: Documentation
       path: documentation
       icon: book-blank
+      default: true
       children:
         - type: space
           key: space-2
@@ -15,20 +16,6 @@ site:
           default: true
           content:
             directory: ./documentation
-    - type: section
-      key: section-4
-      title: Changelog
-      path: changelog
-      icon: clock-rotate-left
-      default: true
-      children:
-        - type: space
-          key: space-4
-          title: Changelog
-          path: changelog
-          default: true
-          content:
-            directory: ./changelog
     - type: section
       key: section-5
       title: Help Center
